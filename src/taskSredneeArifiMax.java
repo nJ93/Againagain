@@ -3,7 +3,10 @@
  */
 public class taskSredneeArifiMax {
     public static void main(String[] args) {
-        int[] array = {2, 2, 4, 4};
+
+
+
+        int[] array = {2, 2, 4, 4}; //123
         float summ = 0;
         int max = 0;
         for(int k : array){
