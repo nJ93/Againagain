@@ -9,6 +9,7 @@ public class StackCalc {
     private static String[] array;
 
     public static void main(String[] args) {
+        int a = 0, b = 0;
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         try {
             String operation = reader.readLine();
@@ -28,6 +29,8 @@ public class StackCalc {
                     stack.push(stack.pop() / stack.pop());
                 } else if (array[0].equals("SUB")){
                     stack.push(stack.pop() + stack.pop());
+                }  else if (a >> b == 0){
+
                 }
                 operation = reader.readLine();
             }
